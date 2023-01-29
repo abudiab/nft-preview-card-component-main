@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <img class="main__img" src="./images/image-equilibrium.jpg" alt="" />
+      <div class="main__content">
+        <h1 class="onHover">Equilibrium #3429</h1>
+        <p class="main__description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="main__details">
+          <div class="details__price">
+            <img src="./images/icon-ethereum.svg" alt="" class="icon" />
+            0.041 ETH
+          </div>
+          <div class="details__time-left">
+            <img src="./images/icon-clock.svg" alt="" class="icon" /> 3 days
+            left
+          </div>
+        </div>
+        <hr class="main__separator" />
+        <div class="main__creator-info">
+          <img
+            src="./images/image-avatar.png"
+            alt=""
+            class="creator-info__image"
+          />
+          <p class="creator-info">
+            <span>Creation of</span>
+            <span class="creator-info__name onHover">Jules Wyvern</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
